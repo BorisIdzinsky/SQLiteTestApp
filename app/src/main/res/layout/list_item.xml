@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/seventy_two_dp"
+    android:paddingLeft="@dimen/sixteen_dp"
+    android:paddingRight="@dimen/sixteen_dp"
+    android:paddingStart="@dimen/sixteen_dp"
+    android:paddingEnd="@dimen/sixteen_dp"
+    android:paddingTop="@dimen/twenty_dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/name_surname"
+        android:textSize="@dimen/sixteen_sp"
+        android:textStyle="bold"
+        android:text="test test"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/year_of_birth"
+        android:textSize="@dimen/fourteen_sp"
+        android:layout_below="@+id/name_surname"
+        android:text="1991"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/position"
+        android:textSize="@dimen/sixteen_sp"
+        android:text="test test"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/city"
+        android:textSize="@dimen/fourteen_sp"
+        android:text="test test"
+        android:layout_below="@+id/position"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

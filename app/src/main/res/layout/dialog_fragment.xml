@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/sixteen_dp"
+    android:paddingStart="@dimen/sixteen_dp"
+    android:paddingRight="@dimen/sixteen_dp"
+    android:paddingEnd="@dimen/sixteen_dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_input_layout_name">
+
+    <EditText
+        android:id="@+id/add_name"
+        android:imeOptions="flagNoFullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textNoSuggestions"
+        android:textSize="@dimen/sixteen_sp"
+        android:hint="@string/name" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_input_layout_surname">
+
+        <EditText
+            android:id="@+id/add_surname"
+            android:imeOptions="flagNoFullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textNoSuggestions"
+            android:textSize="@dimen/sixteen_sp"
+            android:hint="@string/surname" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_input_layout_year">
+
+        <EditText
+            android:id="@+id/add_year"
+            android:imeOptions="flagNoFullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textNoSuggestions"
+            android:textSize="@dimen/sixteen_sp"
+            android:hint="@string/year_of_birth" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/add_position"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/one" />
+
+        <Spinner
+            android:id="@+id/add_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/one" />
+
+    </LinearLayout>
+
+</LinearLayout>

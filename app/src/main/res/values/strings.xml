@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="year_of_birth">Год рождения</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Редактировать</string>
+    <string name="add">Добавить</string>
+    <string name="error">Ошибка</string>
+
+    <string-array name="position">
+        <item>Врач</item>
+        <item>Фармацевт</item>
+        <item>Медсестра</item>
+        <item>Водитель</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>Киев</item>
+        <item>Харьков</item>
+        <item>Одесса</item>
+        <item>Львов</item>
+    </string-array>
+
+</resources>
